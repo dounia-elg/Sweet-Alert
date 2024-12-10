@@ -81,3 +81,72 @@
 
 }
 
+/***********************sweet success****************************/
+
+.btn1{
+    padding: 10px 60px;
+    background-color: rgb(115, 205, 127);
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.btn1:hover{
+    background-color: rgb(134, 221, 137);
+    color: aliceblue;
+}
+
+.popup1{
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+
+}
+
+.open-popup1{
+    visibility: visible;
+    transform: translate(-50%,-50%) scale(1);
+    top: 50%;
+}
+
+.popup1 img{
+    width: 100px;
+    margin-top: -50px;
+    
+}
+
+.popup1 h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup1 button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: rgb(115, 205, 127);
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup1 button:hover{
+    background-color: rgb(134, 221, 137);
+    color: black;
+
+}
