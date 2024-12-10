@@ -34,22 +34,20 @@
             <button type="button" onclick="closePopup2()">OK</button>
         </div>
 
+        <!---------------sweet warning--------------------->
+
+        <button type="submit" class="btn3" onclick="openPopup3()">Click me</button>
+        <div class="popup3" id="popup3">
+            <img src="img/warning tick.png" alt="">
+            <h2>This action might have unexpected consequences!</h2>
+            <button type="button" onclick="closePopup3()">OK</button>
+        </div>
+
 
 
     </div>
 
 
-<script>
-    let popup = document.getElementById("popup");
-
-    function openPopup(){
-        popup.classList.add("open-popup");
-    }
-
-    function closePopup(){
-        popup.classList.remove("open-popup");
-    }
-</script>
 
 <script src="script.js"></script>
 
